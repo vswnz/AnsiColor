@@ -1,13 +1,12 @@
 
 /**
- * Write a description of class main here.
+ * Code with sample ANSI colour for text
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author  Bill Viggers
+ * @version 17-May-2022
  */
 public class colourText
 {
-    // instance variables - replace the example below with your own
     public static final String Black = "\u001B[30m";
     public static final String Red= "\u001b[31m";
     public static final String Green= "\u001b[32m";
@@ -24,7 +23,6 @@ public class colourText
     public static void main(String[] args)
     {
 
-        // initialise instance variables
         System.out.println(Magenta+"Hello world"+Reset);
     }
 
